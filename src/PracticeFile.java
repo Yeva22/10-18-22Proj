@@ -7,6 +7,11 @@ public class PracticeFile {
 
         System.out.println(j+y);
         System.out.println("this is the sum of " +j + " and" + y);
+        if(j<y) {
+            System.out.println(false);
+        }else{
+            System.out.println(true);
 
+        }
     }
 }
